@@ -402,7 +402,7 @@ h3 {
 /*------- sub-header section------ */
 
 .sub-header {
-    height: 60vh;
+    height: 400px;
     width: 100%;
     background-image: linear-gradient(rgba(4, 9, 30, .7), rgba(4, 9, 30, .7)), url("https://i.postimg.cc/VLsHvn2t/background.jpg");
     background-position: center;
