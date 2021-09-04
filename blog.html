@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>university website design</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://kit.fontawesome.com/c4a450bf8e.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="https://i.postimg.cc/pLSLwqxd/logo.png"></a>
+            <div class="nav-links">
+                <i class="fas fa-times" id="h"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="courses.html">COURSES</a></li>
+                    <li><a href="blog.html">BLOGS</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fas fa-bars" id="s"></i>
+        </nav>
+        <h1>Blogs</h1>
+    </section>
+    <!---blog-->
+    <section class="blog">
+        <div class="row">
+            <div class="blog-left">
+                <img src="images/certificate.jpg">
+                <h2>Our Certified Courses</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, molestiae. Veniam, voluptatum fugiat possimus odit animi quo dicta est perspiciatis, aperiam non obcaecati! Aperiam in asperiores temporibus excepturi tempora facilis!</p><br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, molestiae. Veniam, voluptatum fugiat possimus odit animi quo dicta est perspiciatis, aperiam non obcaecati! Aperiam in asperiores temporibus excepturi tempora facilis!</p><br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, molestiae.</p><br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, molestiae. Veniam, voluptatum fugiat possimus odit animi quo dicta est perspiciatis, aperiam non obcaecati! Aperiam in asperiores temporibus excepturi tempora facilis!</p><br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, molestiae. Veniam, voluptatum fugiat possimus odit animi quo dicta est perspiciatis, aperiam non obcaecati! Aperiam in asperiores temporibus excepturi tempora facilis!</p><br>
+                <div class="comment-box">
+                    <h3>Leave A Comment</h3>
+                    <form action="" class="comment-form">
+                        <input type="text" placeholder="Enter Name">
+                        <input type="email" placeholder="Enter Email">
+                        <textarea row="5" placeholder="Write Your Comment here...."></textarea>
+                        <button class="btn red-btn" type="button">POST COMMENT</button>
+                    </form>
+                </div>
+            </div>
+            <div class="blog-right">
+                <h3>Post Categories</h3>
+                <div>
+                    <span>Business Analytics</span>
+                    <span>21</span>
+                </div>
+                <div>
+                    <span>Computer Science</span>
+                    <span>45</span>
+                </div>
+                <div>
+                    <span>Machine Learning</span>
+                    <span>71</span>
+                </div>
+                <div>
+                    <span>Artificial Intelligence</span>
+                    <span>31</span>
+                </div>
+                <div>
+                    <span>Journalism</span>
+                    <span>29</span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-----facilities------>
+
+    <!-----footer-->
+    <section class="footer">
+        <h4>About us</h4>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nihil impedit harum, in beatae nulla eum, reprehenderit praesentium facilis aspernatur temporibus quis sapiente<br> animi deserunt qui ipsum at consequatur delectus eaque. Aliquam excepturi
+            quod maiores!</p>
+        <div class="icons">
+            <i class="fab fa-facebook"></i>
+            <i class="fab fa-instagram-square"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-linkedin-in"></i>
+        </div>
+        <h3 class="love">Made with <i class="fa fa-heart-o"></i> By Vidhanshu</h3>
+    </section>
+</body>
+<script>
+    $(".fa-bars").click(
+        function() {
+            $(".nav-links").css("display", "block")
+        }
+    );
+    $(".fa-times").click(
+        function() {
+            $(".nav-links").css("display", "none")
+        }
+    );
+</script>
+
+</html>
